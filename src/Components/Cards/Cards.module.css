@@ -1,0 +1,70 @@
+.container {
+  border-radius: 0px;
+  margin: 50px 0px;
+}
+
+.card {
+  border-radius: 0px;
+  margin: 0 2% !important;
+  border-radius: 50% !important;
+  transition: transform .2s;
+}
+
+.card:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.infected {
+  background-color: rgba(102, 179, 255, 0.9) !important;
+  border-bottom: 10px solid rgba(0, 0, 255, 0.9);
+  border-radius: 0% !important;
+  transition: transform .8s;
+}
+
+.infected:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.recovered {
+  background-color: rgba(191, 242, 202, 0.9) !important;
+  border-bottom: 10px solid rgba(0, 255, 0, 0.9);
+  border-radius: 0% !important;
+}
+
+.recovered:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+.deaths {
+  background-color: rgba(237, 178, 178, 0.9) !important;
+  border-bottom: 10px solid rgba(255, 0, 0, 0.9);
+  border-radius: 0% !important;
+}
+
+.deaths:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+.active {
+  background-color: rgba(237, 199, 152, 0.5) !important;
+  border-bottom: 10px solid rgba(242, 234, 0, 0.5);
+  border-radius: 0% !important;
+}
+
+.active:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+@media (max-width: 770px) {
+  .card {
+    margin: 2% 0 !important;
+    border-radius: 0% !important;
+  }
+}

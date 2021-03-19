@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.countryBox{
+  
+  background-color: white;
+  padding:2%;
+}
+
+.textColor{
+  color:white;
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.image {
+  width: 370px;
+  margin-top: 50px;
+}
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .image {
+    width: 100%;
+  }
+}
+.myContainer{
+  background-color:#222031;
+  border-radius: 5px;
+}
+
+.plotContainer{
+  background-color:#222031;
+  border-radius: 5px;
+  padding:2%;
+  width:90%;
+}
+.shadow {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+}
