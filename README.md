@@ -40,10 +40,12 @@ To setup the app for development on your local machine, please follow the instru
 
 ## Screenshots of the live application
 ### screenshot1
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot1.png)
 ### screenshot2
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot2.png)
 ### screenshot3
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot3.png)
+### screenshot3
+![Screenshot](Screenshot4.png)
 
 Don't forget to give a star :star: for this repo :slightly_smiling_face:
